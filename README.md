@@ -1,10 +1,7 @@
 # Planet Horoscope Predictor
 
-[![Planet Horoscope Predictor Demo](/demo/planet-horoscope-demo.gif)](https://github.com/Realcod/horoscope-project/blob/main/1.png
-https://github.com/Realcod/horoscope-project/blob/main/2.png
-https://github.com/Realcod/horoscope-project/blob/main/3.png
-https://github.com/Realcod/horoscope-project/blob/main/4.png
-https://github.com/Realcod/horoscope-project/blob/main/5.png)
+![Planet Horoscope Predictor Demo](demo/planet-horoscope-demo.gif)
+![Image 2](2.png)  ![Image 3](3.png)  ![Image 4](4.png)  ![Image 5](5.png)
 
 ---
 
