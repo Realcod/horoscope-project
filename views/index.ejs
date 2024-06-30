@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Horoscope</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daily Horoscope</h1>
+    </header>
+    <main>
+        <% if (error) { %>
+            <p><%= error %></p>
+        <% } else { %>
+            <h2>Planets Data</h2>
+            <ul>
+                <% for (let planet in planets) { %>
+                    <li>
+                        <h3><%= planet %></h3>
+                        <p>Current Sign: <%= planets[planet].current_sign %></p>
+                        <p>Full Degree: <%= planets[planet].fullDegree %></p>
+                        <p>Retrograde: <%= planets[planet].isRetro %></p>
+                    </li>
+                <% } %>
+            </ul>
+        <% } %>
+    </main>
+    <footer>
+        <p>&copy; 2024 Horoscope App</p>
+    </footer>
+</body>
+</html>
